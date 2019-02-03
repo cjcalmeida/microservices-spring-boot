@@ -1,2 +1,2 @@
 # microservices-spring-boot
-Everything I learned about Microservices with Spring-boot
+Observations, studies and examples of microservices patterns with spring-boot
