@@ -1,0 +1,4 @@
+configuration:
+  projectName: modulo-dois-configuration-client
+server:
+  port: 80
