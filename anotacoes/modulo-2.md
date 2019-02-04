@@ -4,4 +4,4 @@
 # Lembretes
 	
 # Observações
-	
+	- O client utilizará a propriedade spring.application.name para obter as propriedades no config-server, portanto está informação deve estar no arquivo bootstrap(.yml, .properties)

@@ -3,7 +3,8 @@
 		curl http://start.spring.io
 	- Os componentes Starters do Spring automatizam funcionalidades e/ou configurações necessárias, para o uso certas técnologias como o Redis, Seguranças, etc, para saber mais sobre eles, acesse: 
 		- https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#using-boot-starter
-
+	- Amostra da criação de projetos com curl:
+		curl http://start.spring.io/starter.zip -d groupId=<group-id> -d artifactId=<component-name> -d javaVersion=8 -d dependencies=cloud-config-client,actuator,web -o <component-name>.zip
 # Lembretes
 	- Visão geral de como funciona o Auto-Configuration do Spring:
 		- A anotação @EnableAutoConfiguration indica ao spring que deve ser carregado os arquivos META-INF/spring.factories
